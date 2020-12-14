@@ -11,4 +11,5 @@ public interface EmployeeService {
 	public String deleteEmployee(String empId);
 	public Employee getEmployeeById(String empID);
 	public List<Employee> getEmployees();
+	public boolean employeeExistsById(String empId);
 }

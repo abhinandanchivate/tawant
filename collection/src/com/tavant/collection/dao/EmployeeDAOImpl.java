@@ -1,6 +1,7 @@
 package com.tavant.collection.dao;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import com.tavant.collection.model.Employee;
@@ -47,6 +48,20 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		boolean  result = employees.remove(this.getEmployeeById(empId));
 		if (result ) return "success";
 		else return "fail";
+//		int index = -1;
+//	Iterator<Employee> iterator = employees.iterator();
+//	while (iterator.hasNext()) {
+//		Employee employee = (Employee) iterator.next();
+//		index++;
+//		if(empId.equals(employee.getEmpId())) {
+//			break;
+//		}
+//		
+//	}
+//	
+//	employees.remove(index);
+//	
+	
 	}
 
 	@Override
@@ -65,7 +80,13 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Override
 	public List<Employee> getEmployees() {
 		// TODO Auto-generated method stub
-		return null;
+		return employees;
+	}
+
+	@Override
+	public boolean employeeExistsById(String empId) {
+		// TODO Auto-generated method stub
+		return employees.contains(this.getEmployeeById(empId));
 	}
 
 }

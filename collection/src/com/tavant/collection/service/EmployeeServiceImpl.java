@@ -37,7 +37,13 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public List<Employee> getEmployees() {
 		// TODO Auto-generated method stub
-		return null;
+		return employeeDAO.getEmployees();
+	}
+
+	@Override
+	public boolean employeeExistsById(String empId) {
+		// TODO Auto-generated method stub
+		return employeeDAO.employeeExistsById(empId);
 	}
 
 }
