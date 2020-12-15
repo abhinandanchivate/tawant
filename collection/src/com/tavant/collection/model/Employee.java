@@ -1,9 +1,19 @@
 package com.tavant.collection.model;
 
+import com.tavant.collection.exceptions.InvalidSalaryException;
 
-public class Employee {
+public class Employee //implements Comparable<Employee>
+{
+	
 	
 	private String empId;
+	public Employee(String empId, String empFirstName, String empLastName, float empSalary) throws InvalidSalaryException {
+		super();
+		this.empId = empId;
+		this.empFirstName = empFirstName;
+		this.empLastName = empLastName;
+		this.setEmpSalary(empSalary);
+	}
 	private String empFirstName;
 	private String empLastName;
 	private float empSalary;
@@ -33,8 +43,17 @@ public class Employee {
 	public float getEmpSalary() {
 		return empSalary;
 	}
-	public void setEmpSalary(float empSalary) {
+	public void setEmpSalary(float empSalary) throws InvalidSalaryException {
+		if(empSalary<0) {
+			throw new InvalidSalaryException("salary should not be negative");
+		}
 		this.empSalary = empSalary;
 	}
+//	@Override
+//	public int compareTo(Employee arg0) {
+//		//comparison based on id
+//		// TODO Auto-generated method stub
+//		return arg0.getEmpId().compareTo(this.getEmpId());
+//	}
 
 }

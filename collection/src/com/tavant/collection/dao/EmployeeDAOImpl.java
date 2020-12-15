@@ -1,15 +1,33 @@
 package com.tavant.collection.dao;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 import com.tavant.collection.model.Employee;
 
 public class EmployeeDAOImpl implements EmployeeDAO {
 
 	
-	private List<Employee> employees = new ArrayList<Employee>();
+	private Set<Employee> employees = new TreeSet<Employee>(new Comparator<Employee>() {
+
+		@Override
+		public int compare(Employee emp1, Employee emp2) {
+			// TODO Auto-generated method stub
+			return emp1.getEmpId().compareTo(emp2.getEmpId());
+		}
+	});
+	
+	private Set<Employee> employees2 = new TreeSet<Employee>((e1,e2)->{return  e1.getEmpId().compareTo(e2.getEmpId());});
+	
+	private Set<Employee> employees3 = new TreeSet<Employee>((e1,e2)-> e1.getEmpId().compareTo(e2.getEmpId())
+			);
+	
 	// DC ===> 10
 	// parameterized ===> size
 	// prameterzed another ===> will accept Collection (used to transfrom any collection to list)
@@ -80,7 +98,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	@Override
 	public List<Employee> getEmployees() {
 		// TODO Auto-generated method stub
-		return employees;
+		return new ArrayList<Employee>(employees);
 	}
 
 	@Override
