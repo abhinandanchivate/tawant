@@ -1,6 +1,7 @@
 package com.tavant.collection.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.tavant.collection.dao.EmployeeDAO;
 import com.tavant.collection.dao.EmployeeDAOImpl;
@@ -17,9 +18,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public Employee updateEmployee(String empId, Employee employee) {
+	public Optional<Employee> updateEmployee(String empId, Employee employee) {
 		// TODO Auto-generated method stub
-		return null;
+		return employeeDAO.updateEmployee(empId, employee);
 	}
 
 	@Override
@@ -29,13 +30,13 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public Employee getEmployeeById(String empID) {
+	public Optional<Employee> getEmployeeById(String empID) {
 		// TODO Auto-generated method stub
 		return employeeDAO.getEmployeeById(empID);
 	}
 
 	@Override
-	public List<Employee> getEmployees() {
+	public Optional<List<Employee>> getEmployees() {
 		// TODO Auto-generated method stub
 		return employeeDAO.getEmployees();
 	}
