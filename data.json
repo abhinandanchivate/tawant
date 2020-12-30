@@ -1,0 +1,7 @@
+[
+  { "_id" : "abhi", "title" : "Divine Comedy", "author" : "Dante", "copies" : 1 },
+  { "_id" : "abhi001", "title" : "The Odyssey", "author" : "Homer", "copies" : 10 },
+  { "_id" : "abhi002", "title" : "Iliad", "author" : "Homer", "copies" : 10 },
+  { "_id" : "abhi003", "title" : "Eclogues", "author" : "Dante", "copies" : 2 },
+  { "_id" : "abhi004", "title" : "The Banquet", "author" : "Dante", "copies" : 2 }
+]
