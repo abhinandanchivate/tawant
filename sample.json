@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "5fec6882418824542ecd2eff"
+  },
+  "title": "java overview",
+  "description": "java",
+  "by": "tavant",
+  "url": "www.java.com",
+  "tags": [
+    "mongodb",
+    "nosql",
+    "db"
+  ],
+  "likes": 1000,
+  "preparedBy": "shree"
+},{
+  "_id": {
+    "$oid": "5fec6882418824542ecd2f00"
+  },
+  "title": "mongodb overview",
+  "description": "hello",
+  "by": "tavant",
+  "url": "www.tavant.com",
+  "tags": [
+    "mongodb",
+    "nosql",
+    "db"
+  ],
+  "likes": 100,
+  "comments": [
+    {
+      "user": "user1",
+      "message": "hello",
+      "dateCreated": {
+        "$date": "2021-01-29T21:12:00Z"
+      },
+      "like": 0
+    }
+  ],
+  "preparedBy": "advik"
+},{
+  "_id": {
+    "$oid": "5fec68a3418824542ecd2f01"
+  },
+  "title": "casandra",
+  "description": "hello",
+  "by": "tavant",
+  "url": "www.tavant.com",
+  "tags": [
+    "cassandra",
+    "nosql",
+    "db"
+  ],
+  "likes": 100,
+  "preparedBy": "abhi"
+},{
+  "_id": {
+    "$oid": "5fec68a3418824542ecd2f02"
+  },
+  "title": "mongodb overview",
+  "description": "hello",
+  "by": "tavant",
+  "url": "www.tavant.com",
+  "tags": [
+    "mongodb",
+    "nosql",
+    "db"
+  ],
+  "likes": 100,
+  "comments": [
+    {
+      "user": "user1",
+      "message": "hello",
+      "dateCreated": {
+        "$date": "2021-01-29T21:12:00Z"
+      },
+      "like": 0
+    }
+  ],
+  "preparedBy": "abhi"
+}]
