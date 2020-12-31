@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "5fc77d7f898c2017f0ce877e"
+  },
+  "ProductName": "1 Gallon Soy Milk",
+  "Price": "2.5",
+  "Quantity": "12"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce877f"
+  },
+  "ProductName": "1 Gallon Almond Milk ",
+  "Price": "2.75",
+  "Quantity": "22"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8780"
+  },
+  "ProductName": "Six Pack Soda",
+  "Price": "3",
+  "Quantity": "3"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8781"
+  },
+  "ProductName": "Chocolate Bar",
+  "Price": "1",
+  "Quantity": "4"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8782"
+  },
+  "ProductName": "Paper Towels",
+  "Price": "1.25",
+  "Quantity": "8"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8783"
+  },
+  "ProductName": "Red Wine",
+  "Price": "14",
+  "Quantity": "3"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8784"
+  },
+  "ProductName": "Salt and Vinegar Chips ",
+  "Price": "2.25",
+  "Quantity": "22"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8785"
+  },
+  "ProductName": "Barbecue Chips",
+  "Price": "2.25",
+  "Quantity": "1"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8786"
+  },
+  "ProductName": "Gatorade",
+  "Price": "2",
+  "Quantity": "21"
+},{
+  "_id": {
+    "$oid": "5fc77d81898c2017f0ce8787"
+  },
+  "ProductName": "Breath Mints",
+  "Price": "0.5",
+  "Quantity": "11"
+}]
