@@ -1,1 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T11:18:03.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" version="14.2.9" etag="SSe4uOz1PXod-CV4vcEA" type="github"><diagram id="Fk3T8EqebsZLYeCTAtIu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-05T10:43:33.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="4owELWX3J1RCzgw_zX3B" version="14.2.9" type="github" pages="3">
+  <diagram id="Fk3T8EqebsZLYeCTAtIu" name="Page-1">
+    <mxGraphModel dx="1632" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S4PEEc8oV5X_xf2VOB1i-1" target="aUZbtKfd30rZ8-xIIUfQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4PEEc8oV5X_xf2VOB1i-1" value="Redux" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-1" value="state (entire application)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aUZbtKfd30rZ8-xIIUfQ-3" target="aUZbtKfd30rZ8-xIIUfQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-3" value="store(centralized loc for holding the data)&lt;br&gt;store is immutable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aUZbtKfd30rZ8-xIIUfQ-4" target="aUZbtKfd30rZ8-xIIUfQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-4" value="component(to get the data)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aUZbtKfd30rZ8-xIIUfQ-6" target="aUZbtKfd30rZ8-xIIUfQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-6" value="actions" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aUZbtKfd30rZ8-xIIUfQ-8" target="aUZbtKfd30rZ8-xIIUfQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-8" value="middleware(thunk)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aUZbtKfd30rZ8-xIIUfQ-10" target="aUZbtKfd30rZ8-xIIUfQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-10" value="reducers" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-13" value="actions will help us to hanlde the events and to modify the store data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-14" value="will help u to modify the data from the store." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-15" value="middleware that allows you to return the functions , rather than just actions within the redux.&amp;nbsp; This allows for delayed actions , including work promises.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="740" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-16" value="main use case for this middleware is for handling actions that might not be synchronous . ex axios to send a GET request , redux thunk alllows us to dispatch those actions asynchronously and resolve each promise that gets returned.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="950" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-17" value="Register&lt;br&gt;login&lt;br&gt;dashboard&lt;br&gt;profile(CRUD)&lt;br&gt;exp(CRUD)&lt;br&gt;edu(CRUD)&lt;br&gt;post(CRUD)&lt;br&gt;comment(CURD)&lt;br&gt;common components creation and heroku app deployment)&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="460" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-18" value="1. reducer spec.&amp;nbsp;&lt;br&gt;2. store creation&lt;br&gt;3. action&lt;br&gt;4. usage of action in component &amp;amp; ready the component to use redux store content" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1030" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aUZbtKfd30rZ8-xIIUfQ-19" value="1. reducer work&lt;br&gt;2. action&lt;br&gt;3. component consuming action stuff and data from store" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1100" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5wzIz9VU5nnu4gRaBlc0-1" value="dispatch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="900" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fux6ibSjeE4iUpDxSw1M" name="Page-2">
+    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-0" />
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-1" parent="sgYWE5T1jfvXFdopCJiy-0" />
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sgYWE5T1jfvXFdopCJiy-1" source="sgYWE5T1jfvXFdopCJiy-2" target="sgYWE5T1jfvXFdopCJiy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-2" value="component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sgYWE5T1jfvXFdopCJiy-1">
+          <mxGeometry x="220" y="120" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-3" value="state" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sgYWE5T1jfvXFdopCJiy-1">
+          <mxGeometry x="460" y="120" width="160" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8hQeb3tNaHzYB7_EYhLF" name="Page-3">
+    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="2UCxz27f8UAjekza5ciH-0" />
+        <mxCell id="2UCxz27f8UAjekza5ciH-1" parent="2UCxz27f8UAjekza5ciH-0" />
+        <mxCell id="2UCxz27f8UAjekza5ciH-7" value="index&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+          <mxGeometry x="365" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2UCxz27f8UAjekza5ciH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2UCxz27f8UAjekza5ciH-1" source="2UCxz27f8UAjekza5ciH-2" target="2UCxz27f8UAjekza5ciH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="70" />
+              <mxPoint x="620" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2UCxz27f8UAjekza5ciH-2" value="all reducers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+          <mxGeometry x="140" y="120" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2UCxz27f8UAjekza5ciH-3" value="store" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2UCxz27f8UAjekza5ciH-5" value="100&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+          <mxGeometry x="380" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2UCxz27f8UAjekza5ciH-6" value="multiple entries &amp;amp; we should do the less manipulation in store.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+          <mxGeometry x="570" y="270" width="110" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
