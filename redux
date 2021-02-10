@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T09:37:11.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="LRTOxQtZZqRfYzPwuSOF" version="14.2.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-02-10T06:13:04.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ub5muXuhrWzxClHYqugM" version="14.2.9" type="github" pages="6">
   <diagram id="Fk3T8EqebsZLYeCTAtIu" name="Page-1">
     <mxGraphModel dx="1888" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -79,31 +79,31 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fux6ibSjeE4iUpDxSw1M" name="Page-2">
-    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="sgYWE5T1jfvXFdopCJiy-0" />
         <mxCell id="sgYWE5T1jfvXFdopCJiy-1" parent="sgYWE5T1jfvXFdopCJiy-0" />
-        <mxCell id="sgYWE5T1jfvXFdopCJiy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sgYWE5T1jfvXFdopCJiy-1" source="sgYWE5T1jfvXFdopCJiy-2" target="sgYWE5T1jfvXFdopCJiy-3">
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="sgYWE5T1jfvXFdopCJiy-1" source="sgYWE5T1jfvXFdopCJiy-2" target="sgYWE5T1jfvXFdopCJiy-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sgYWE5T1jfvXFdopCJiy-2" value="component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sgYWE5T1jfvXFdopCJiy-1">
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-2" value="component" style="rounded=1;whiteSpace=wrap;html=1;" parent="sgYWE5T1jfvXFdopCJiy-1" vertex="1">
           <mxGeometry x="220" y="120" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sgYWE5T1jfvXFdopCJiy-3" value="state" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="sgYWE5T1jfvXFdopCJiy-1">
+        <mxCell id="sgYWE5T1jfvXFdopCJiy-3" value="state" style="rounded=1;whiteSpace=wrap;html=1;" parent="sgYWE5T1jfvXFdopCJiy-1" vertex="1">
           <mxGeometry x="460" y="120" width="160" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="8hQeb3tNaHzYB7_EYhLF" name="Page-3">
-    <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="2UCxz27f8UAjekza5ciH-0" />
         <mxCell id="2UCxz27f8UAjekza5ciH-1" parent="2UCxz27f8UAjekza5ciH-0" />
-        <mxCell id="2UCxz27f8UAjekza5ciH-7" value="index&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+        <mxCell id="2UCxz27f8UAjekza5ciH-7" value="index&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="2UCxz27f8UAjekza5ciH-1" vertex="1">
           <mxGeometry x="365" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2UCxz27f8UAjekza5ciH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2UCxz27f8UAjekza5ciH-1" source="2UCxz27f8UAjekza5ciH-2" target="2UCxz27f8UAjekza5ciH-3">
+        <mxCell id="2UCxz27f8UAjekza5ciH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2UCxz27f8UAjekza5ciH-1" source="2UCxz27f8UAjekza5ciH-2" target="2UCxz27f8UAjekza5ciH-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="200" y="70" />
@@ -111,16 +111,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2UCxz27f8UAjekza5ciH-2" value="all reducers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+        <mxCell id="2UCxz27f8UAjekza5ciH-2" value="all reducers" style="rounded=1;whiteSpace=wrap;html=1;" parent="2UCxz27f8UAjekza5ciH-1" vertex="1">
           <mxGeometry x="140" y="120" width="120" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="2UCxz27f8UAjekza5ciH-3" value="store" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+        <mxCell id="2UCxz27f8UAjekza5ciH-3" value="store" style="whiteSpace=wrap;html=1;rounded=1;" parent="2UCxz27f8UAjekza5ciH-1" vertex="1">
           <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2UCxz27f8UAjekza5ciH-5" value="100&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+        <mxCell id="2UCxz27f8UAjekza5ciH-5" value="100&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2UCxz27f8UAjekza5ciH-1" vertex="1">
           <mxGeometry x="380" y="230" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2UCxz27f8UAjekza5ciH-6" value="multiple entries &amp;amp; we should do the less manipulation in store.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UCxz27f8UAjekza5ciH-1">
+        <mxCell id="2UCxz27f8UAjekza5ciH-6" value="multiple entries &amp;amp; we should do the less manipulation in store.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="2UCxz27f8UAjekza5ciH-1" vertex="1">
           <mxGeometry x="570" y="270" width="110" height="90" as="geometry" />
         </mxCell>
       </root>
@@ -247,6 +247,41 @@
         </mxCell>
         <mxCell id="T5jmvLX_U9Pk-UkwyeU6-31" value="will perform the rest call @the client" style="whiteSpace=wrap;html=1;rounded=1;fontSize=20;" vertex="1" parent="T5jmvLX_U9Pk-UkwyeU6-1">
           <mxGeometry x="-340" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aQxSO8RX1rXixRBEPLi2" name="Page-6">
+    <mxGraphModel dx="1888" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-0" />
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-1" parent="4r_Wpoj5SSaoarE9ziZL-0" />
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="4r_Wpoj5SSaoarE9ziZL-1" source="4r_Wpoj5SSaoarE9ziZL-3" target="4r_Wpoj5SSaoarE9ziZL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;" edge="1" parent="4r_Wpoj5SSaoarE9ziZL-1" source="4r_Wpoj5SSaoarE9ziZL-3" target="4r_Wpoj5SSaoarE9ziZL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-3" value="current Profile Details" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="4r_Wpoj5SSaoarE9ziZL-1">
+          <mxGeometry x="210" y="70" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-4" value="render the profile details&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="4r_Wpoj5SSaoarE9ziZL-1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-6" value="display create profile button" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="4r_Wpoj5SSaoarE9ziZL-1">
+          <mxGeometry x="710" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-8" value="fail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="4r_Wpoj5SSaoarE9ziZL-1">
+          <mxGeometry x="560" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-9" value="success" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="4r_Wpoj5SSaoarE9ziZL-1">
+          <mxGeometry x="405" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-10" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 102)&quot;&gt;1. reducers(profileReducer)&lt;br&gt;2. profile action getCurrentProfile action(/profile/me)&lt;/span&gt;&lt;br&gt;3. consumption in dashboard component." style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="4r_Wpoj5SSaoarE9ziZL-1">
+          <mxGeometry x="-90" y="170" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4r_Wpoj5SSaoarE9ziZL-11" value="end point : /profile/me" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="4r_Wpoj5SSaoarE9ziZL-1">
+          <mxGeometry x="220" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
